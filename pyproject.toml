@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "youtube-statics"
+version = "0.1.0"
+description = ""
+authors = ["Kalirajp <kalirajp94@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.1.1"
+numpy = "^1.26.0"
+selenium = "^4.13.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
